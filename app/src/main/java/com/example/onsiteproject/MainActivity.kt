@@ -29,6 +29,8 @@ class MainActivity : AppCompatActivity() {
             kotlin.runCatching { numberTwo.text.toString().toInt() }.getOrElse { 0 }
 
             result.text = "${numbOne + numbTne}"
+
+
         }
 
     }
